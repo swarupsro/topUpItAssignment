@@ -20,7 +20,7 @@ public class databaseUtility {
     public static Connection retrieveConnection() throws ClassNotFoundException, SQLException {
         
         Class.forName("com.mysql.jdbc.Driver");
-        connection = DriverManager.getConnection("jdbc:mysql://localhost/multiplex", "root", "letsplay");
+        connection = DriverManager.getConnection("jdbc:mysql://localhost/multiplex", "root", "demoPassword");
         
         return connection;
     }
