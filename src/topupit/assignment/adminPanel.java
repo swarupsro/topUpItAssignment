@@ -144,6 +144,8 @@ public class adminPanel extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(78, 205, 196));
         jLabel4.setText("Table: " + this.tableName);
 
+        jButton1.setBackground(new java.awt.Color(169, 225, 144));
+        jButton1.setForeground(new java.awt.Color(0, 1, 0));
         jButton1.setText("Add New User");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,6 +153,8 @@ public class adminPanel extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(169, 225, 144));
+        jButton2.setForeground(new java.awt.Color(0, 1, 0));
         jButton2.setText("Delete User");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -158,6 +162,8 @@ public class adminPanel extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(169, 225, 144));
+        jButton3.setForeground(new java.awt.Color(0, 1, 0));
         jButton3.setText("Movies Showing");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
