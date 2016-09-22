@@ -61,6 +61,7 @@ public class databaseConnectivityWizard extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Database Connectivity Wizard"));
 
         dbName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        dbName.setText("multiplex_system_lict");
         dbName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dbNameActionPerformed(evt);
@@ -72,6 +73,7 @@ public class databaseConnectivityWizard extends javax.swing.JFrame {
         jLabel1.setText("MySQL Username");
 
         password.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        password.setText("letsplay");
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(188, 44, 26));
@@ -86,6 +88,7 @@ public class databaseConnectivityWizard extends javax.swing.JFrame {
         });
 
         userName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        userName.setText("root");
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(188, 44, 26));
@@ -98,6 +101,7 @@ public class databaseConnectivityWizard extends javax.swing.JFrame {
         jLabel6.setText("Table Name");
 
         tableName.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        tableName.setText("users");
         tableName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tableNameActionPerformed(evt);

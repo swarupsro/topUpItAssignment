@@ -172,6 +172,11 @@ public class mainWindow extends javax.swing.JFrame {
 
     private void upcomingMoviesMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_upcomingMoviesMouseClicked
         System.out.println("Upcoming Movies WIndow");
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new movieScheduleWindow().setVisible(true);
+            }
+        });
     }//GEN-LAST:event_upcomingMoviesMouseClicked
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
